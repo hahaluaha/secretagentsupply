@@ -1,59 +1,50 @@
-html,
+html {
+   font-size: 18px;
+}
+
 body {
    font-family: "Helvetica" sans-serif;
-   font-size: 18px;
-   margin: 0;
+
+ }
+
+h1,
+h4 {
+  font-weight: bold;
 }
 
-.main-conteiner {
-   width: 960px;
-
+.conteiner {
+  max-width: 960px;
+  margin: 0 auto;
 }
-   /* Header Section */
+        /* Header Section */
 
-   .logo-conteiner {
+   .company {
      background-color: black;
-     display: block;
-     height: 6.8rem;
+     color: white;
 
    }
 
-   .logo-container {
+   .company .container {
     display: flex;
     align-items: center;
+    padding: .66rem 0 .66rem 0.5rem;
 
    }
 
-   .logo {
+   .company img {
      height: 1.5rem;
-     padding-left: 4rem;
+     padding-left: 2rem;
      padding-right: 1rem;
-     padding-top: 1.5rem;
 
    }
 
-   span {
-     display: flex;
-     align-items: center;
-   }
-
-   .logo-conteiner span {
-
-    display: inline;
-    font-family: Helvetica;
-    font-size: 1.5rem;
-    color: white;
-
-   }
 
       /* Main Banner or Top banner Section */
 
+
+
    .main-banner {
-      width: 960px;
-
-   }
-
-   .image-container {
+     background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
      display: flex;
      background-repeat: no-repeat;
      background-position: center;
@@ -61,19 +52,46 @@ body {
      height: 25rem;
    }
 
-   .text-on-image {
+   .headline {
      display: block;
-   }
-
-   .text-on-image h4 {
-
-     color: white;
-     font-family: Helvetica;
-     font-weight: bold;
-     background-color: black;
-     padding: 2em 3em;
      position: relative;
+     top: 9rem;
+     width: 20rem;
+     padding: 3rem 2rem;
+     background-color: black;
+     color: white;
+   }
+
+   .headline h1 {
+
+     font-size: 2rem;
+     margin: 0.25rem;
+     line-height: 1.2;
 
    }
 
-   .text-on-image 
+   .headline {
+     width: 100%;
+     padding: 3rem 2rem;
+     top: 10rem;
+   }
+.headline h4 {
+    font-size: 1rem;
+}
+
+.headline h1 {
+    font-size: 2rem;
+}
+
+         /* Nav Section */
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
