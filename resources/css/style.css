@@ -95,11 +95,11 @@ nav ul {
   justify-content: space-between;
   padding: 0.75rem;
 }
-
+/* Mobile Navegation is it go or not?
 .mobile-nav {
   display: none;
 }
-
+*/
 /* add @media here at some point for the mobile nav */
 
 .mobile-nav {
@@ -113,7 +113,7 @@ nav ul {
 .business-info {
   display: flex;
   justify-content: space-between;
-  margin-top: 33rem;
+  margin-top: 3rem;
 }
 
 .product {
@@ -140,4 +140,28 @@ nav ul {
   text-align: center;
   color: white;
   padding: 0.5rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+
+
+
+         /* Footer Area */
+
+footer {
+  padding: 5rem 5rem;
+  text-align: left;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
 }
