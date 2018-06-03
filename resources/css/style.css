@@ -21,13 +21,14 @@ h4 {
    .company {
      background-color: black;
      color: white;
+     height: 2rem;
 
    }
 
    .company .container {
     display: flex;
     align-items: center;
-    padding: .66rem 0 .66rem 0.5rem;
+    padding: .66rem 0.5rem .66rem 0.3rem;
 
    }
 
@@ -83,6 +84,19 @@ h4 {
     font-size: 2rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+}
+
          /* Nav Section */
 nav {
   background-color: firebrick;
@@ -95,12 +109,14 @@ nav ul {
   justify-content: space-between;
   padding: 0.75rem;
 }
-/* Mobile Navegation is it go or not?
-.mobile-nav {
-  display: none;
-}
-*/
+
+
 /* add @media here at some point for the mobile nav */
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+}
 
 .mobile-nav {
   display: block;
@@ -153,6 +169,19 @@ nav ul {
   padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .products,
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  .products {
+    width: 90%;
+  }
+}
 
 
 
@@ -161,7 +190,14 @@ nav ul {
 footer {
   padding: 5rem 5rem;
   text-align: left;
-  margin-top: 4rem;
+  padding-top: 1rem;
   background-color: black;
   color: white;
+  height: 5rem;
+}
+
+@@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
