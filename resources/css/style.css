@@ -12,7 +12,7 @@ h4 {
   font-weight: bold;
 }
 
-.conteiner {
+.container {
   max-width: 960px;
   margin: 0 auto;
 }
@@ -21,15 +21,14 @@ h4 {
    .company {
      background-color: black;
      color: white;
-     height: 2rem;
+     height: 3rem;
 
    }
 
    .company .container {
     display: flex;
     align-items: center;
-    padding: .66rem 0.5rem .66rem 0.3rem;
-
+    padding: .66rem 0.5rem 1rem 0.5rem;
    }
 
    .company img {
@@ -46,11 +45,11 @@ h4 {
 
    .main-banner {
      background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-     display: flex;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
      height: 25rem;
+
    }
 
    .headline {
@@ -188,9 +187,8 @@ nav ul {
          /* Footer Area */
 
 footer {
-  padding: 5rem 5rem;
+  padding: 5rem 6rem;
   text-align: left;
-  padding-top: 1rem;
   background-color: black;
   color: white;
   height: 5rem;
